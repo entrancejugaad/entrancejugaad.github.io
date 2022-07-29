@@ -1,0 +1,134 @@
+body{
+    font-family: poppins;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #112D4E;
+}
+
+.navbar-toggler {
+    background-color: #112D4E;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+.dropdown-menu {
+    background-color: #112D4E;
+}
+
+.navbar-nav .active {
+    border-bottom: 1px solid white;
+}
+
+.navbar-nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+@media(max-width:991px){
+    .nav-link:hover {
+        border-bottom: none;
+    }
+    .navbar-nav .active {
+        border-bottom: none;
+    }
+    
+    .navbar-nav ul li a:hover {
+        border-bottom: none;
+    }
+}
+
+.dropdown-menu > li a:hover
+{ 
+    background: transparent;
+    border-bottom: none !important;
+}
+/* navbar */
+
+/* margin */
+.margin {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* margin */
+
+/* profile */
+.mtt{
+    text-align: center;
+}
+
+.img-thumbnail {
+    border: 1px solid #112D4E;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #112D4E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link{
+    background-color: white;
+    text-decoration: none;
+}
+
+.team-card{
+    transition: 0.3s;
+    border: 2px solid #112D4E;
+    background-color: rgb(233, 224, 224);
+}
+
+.team-card:hover{
+    color: white;
+    background-color: #3F72AF;
+    -webkit-transform: translate(0, -20px);
+    transform: translate(0, -20px);
+}
+.profile-card{
+   margin-left: 25%;
+}
+
+.yash-card-title{
+    margin-bottom: 38px;
+}
+
+@media (max-width:1199px){
+    .profile-card{
+        margin-left: 0;
+    }
+    .yash-card-title{
+        margin-bottom: 0;
+    }
+}
+
+/* profile */
+
+
+/* footer */
+footer{
+    background-color: #112D4E;
+    color: white;
+}
+/* footer */
